@@ -1,14 +1,16 @@
-CREATE TABLE employees (
-    id INTEGER,
-    name TEXT,
-    age INTEGER,
-    salary REAL,
-    department TEXT
+CREATE TABLE employees ( 
+id integer ,
+name TEXT ,
+age integer ,
+salary numeric,
+department text
 );
-INSERT INTO employees
-(id, name, age, salary, department)
-VALUES
-(1, 'Ali', 22, 50000, 'IT'),
-(2, 'Sara', 25, 60000, 'HR'),
-(3, 'Omar', 24, 55000, 'IT'),
-(4, 'Lina', 28, 70000, 'Finance');
+Insert into employees
+(id,name,age,salary,department)
+Values 
+(1,'ali',23,54000,'IT'),
+(2,'sara',32,110000,'HR'),
+(3,'mohamed',20,34000,'IT'),
+(4,'raouf',24,50000,'IT');
+select * from employees ;
+select name from employees;
