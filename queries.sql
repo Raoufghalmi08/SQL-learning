@@ -23,6 +23,7 @@ and salary >50000;
 /* select the column of name of employees order by there age from the oldest to youngest from data base*/
 select name from employees 
 order by age desc;
+/* select the column of name and salary of the 2 lowest salary from data base*/
 select name,salary from employees 
 order by salary 
 limit 2 ;
