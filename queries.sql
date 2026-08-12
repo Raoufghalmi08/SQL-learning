@@ -12,7 +12,7 @@ Values
 (2,'sara',32,110000,'HR'),
 (3,'mohamed',20,34000,'IT'),
 (4,'raouf',24,50000,'IT');
-
+/* select all the item in the data base*/
 select * from employees ;
 select name from employees;
 select name,department from employees 
