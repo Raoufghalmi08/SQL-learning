@@ -17,3 +17,8 @@ select name from employees;
 select name,department from employees 
 where age >25
 and salary >50000;
+select name from employees 
+order by age desc;
+select name,salary from employees 
+order by salary 
+limit 2 ;
