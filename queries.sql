@@ -12,6 +12,7 @@ Values
 (2,'sara',32,110000,'HR'),
 (3,'mohamed',20,34000,'IT'),
 (4,'raouf',24,50000,'IT');
+
 select * from employees ;
 select name from employees;
 select name,department from employees 
@@ -22,3 +23,5 @@ order by age desc;
 select name,salary from employees 
 order by salary 
 limit 2 ;
+select DISTINCT department
+from employees;
