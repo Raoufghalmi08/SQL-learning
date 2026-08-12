@@ -14,6 +14,7 @@ Values
 (4,'raouf',24,50000,'IT');
 /* select all the item in the data base*/
 select * from employees ;
+/* select the column of name from data base*/
 select name from employees;
 select name,department from employees 
 where age >25
