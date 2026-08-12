@@ -16,9 +16,11 @@ Values
 select * from employees ;
 /* select the column of name from data base*/
 select name from employees;
+/* select the column of name and department  from data base that has employees who have salary more than 50000 and there age more than 25*/
 select name,department from employees 
 where age >25
 and salary >50000;
+/* select the column of name of employees order by there age from the oldest to youngest from data base*/
 select name from employees 
 order by age desc;
 select name,salary from employees 
