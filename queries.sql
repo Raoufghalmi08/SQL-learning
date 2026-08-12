@@ -14,3 +14,6 @@ Values
 (4,'raouf',24,50000,'IT');
 select * from employees ;
 select name from employees;
+select name,department from employees 
+where age >25
+and salary >50000;
